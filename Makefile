@@ -5,9 +5,10 @@
 ## Step 3
 ##
 
-MAIN = Main.hs
+MAIN =	Main.hs\
+		Operation.hs\
 
-BIN = test
+BIN =	test
 
 all:
 	ghc --make $(MAIN) -o $(BIN)

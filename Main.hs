@@ -1,3 +1,6 @@
 main::IO ()
 main = do
-    print "Hello world!"
+    x <- getLine
+    words x
+    x :: strings -> Int
+    x = read
